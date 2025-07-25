@@ -16,7 +16,7 @@ class AppointmentService {
 
     
     public function getAll() {
-        $sql = "SELECT * FROM appointments ORDER BY appointment_date ASC";
+        $sql = "SELECT * FROM appointments";
         $stmt = $this->pdo->query($sql);
         return $stmt->fetchAll();
     }
