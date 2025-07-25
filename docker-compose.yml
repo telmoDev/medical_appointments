@@ -5,6 +5,7 @@ services:
     image: mysql:8.0
     container_name: medical_appointments_db
     environment:
+      MYSQL_DATABASE: medical_appointments
       MYSQL_ROOT_PASSWORD: rootpassword
     ports:
       - "3306:3306"
