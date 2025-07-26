@@ -16,7 +16,7 @@ CREATE TABLE IF NOT EXISTS appointments (
 )
 
 -- Insert sample data into the appointments table
-INSERT INTO citas (nombre_paciente, especialidad, fecha_cita) VALUES
+INSERT INTO appointments (patient_name, specialty, appointment_date) VALUES
 ('Juan Pérez', 'Medicina General', '2025-07-30'),
 ('María González', 'Pediatría', '2025-08-01'),
 ('Carlos Rodríguez', 'Dermatología', '2025-08-05');
